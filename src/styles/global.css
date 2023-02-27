@@ -1,0 +1,24 @@
+@tailwind base;
+
+body {
+  background-color: #581c87;
+  zoom: 100%
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    zoom: 80%;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
